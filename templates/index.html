@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <style>
+    body {
+        background: #c7b39b url(../background.jpg);
+    }
+    header {
+        text-align: center;
+        margin: 20px 0;
+    }
+    h1 {
+        background: #D9FFAD;
+        padding: 10px;
+        font-size: 50px;
+        margin-top: 0;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 200px;
+        height: auto;
+        border: 5px solid #D9FFAD;
+        border-radius: 50%;
+    }
+    h2 {
+        background: #D9FFAD;
+        padding: 10px;
+        font-size: 30px;
+    }
+    h3 {
+        background: #D9FFAD;
+        padding: 5px;
+        font-size: 20px;
+    }
+    section {
+        margin: 20px auto;
+        max-width: 600px;
+    }
+    article {
+        margin-bottom: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+    a:hover {
+        color: #D9FFAD;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>
+        {{last_name}} {{first_name}}
+      </h1>
+    </div>
+    <img src="{{photo}}" alt="Photo">
+  </header>
+  <section>
+    <h2>
+      Место обучения
+    </h2>
+    <article>
+      <h3>
+        Национальный исследовательский университет "Высшая школа экономики".
+      </h3>
+    </article>
+    <h2>
+      <a href="schedule.html">Моё расписание</a>
+    </h2>
+  </section>
+</body>
+</html>
